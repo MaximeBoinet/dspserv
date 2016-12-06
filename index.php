@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Flat - Responsive HTML Template</title>
+    <title>DSP | Services</title>
 <!--
 Flat Template
 http://www.templatemo.com/tm-491-flat
@@ -42,13 +42,13 @@ http://www.templatemo.com/tm-491-flat
                     <div class="collapse navbar-toggleable-sm text-xs-center text-uppercase tm-navbar" id="tmNavbar">
                         <ul class="nav navbar-nav">
                             <li class="nav-item active selected">
-                                <a class="nav-link" href="#0" data-no="1">Intro <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#0" data-no="1">Accueil <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#0" data-no="2">About</a>
+                                <a class="nav-link" href="#0" data-no="2">A propos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#0" data-no="3">Gallery</a>
+                                <a class="nav-link" href="#0" data-no="3">Nos Services</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#0" data-no="4">Video</a>
@@ -69,8 +69,8 @@ http://www.templatemo.com/tm-491-flat
                             <div class="row">
                             
                                 <div class="col-xs-12">
-                                    <i class="fa fa-4x fa-camera tm-icon"></i>
-                                    <h2 class="tm-site-name">FLAT design</h2>
+                                    <img src="img/logo.gif" style="width:17%;">
+                                    <h2 class="tm-site-name">Tout les services de DSP</h2>
                                     <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-1-col">
                                         <p class="tm-text">Flat design used <a rel="nofollow" href="https://codyhouse.co/gem/hero-slider/" target="_blank">Hero Slider</a> for left and right page transitions. Responsiveness is based on <a rel="nofollow" href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 4 alpha 2. Images are taken from <a rel="nofollow" href="https://unsplash.com/" target="_blank">Unsplash</a>. This web template is provided by <a href="https://plus.google.com/+templatemo" target="_blank">templatemo</a> for free of charge.</p>
                                         <p class="tm-text">Mauris eros lacus, sollicitudin sit amet lacinia et, vehicula bibendum felis. Pellentesque in quam iaculis erat iaculis lacinia. Donec sagittis sapien odio, a sodales velit elementum nec.</p>
@@ -122,34 +122,70 @@ http://www.templatemo.com/tm-491-flat
                             
                             <div class="row tm-img-gallery">
                                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
-                                    <a href="img/tm-img-01.jpg">
-                                        <img src="img/tm-img-01-tn.jpg" alt="Image" class="img-fluid tm-img">
-                                    </a>
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/jardinage.jpg" alt="">
+                                        <div class="overlay">
+                                            <h2 style="font-weight:bold; font-size:0.9em; background-color:green;">Jardinage</h2>
+                                            <p style="margin-top:120px;"> 
+                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                            </p> 
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
-                                    <a href="img/tm-img-02.jpg">
-                                        <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
-                                    </a>
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/repas.jpg" alt="">
+                                        <div class="overlay">
+                                            <h2 style="font-weight:bold; font-size:0.9em; background-color:#A44040;">Aide au repas</h2>
+                                            <p style="margin-top:120px;"> 
+                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                            </p>  
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
-                                    <a href="img/tm-img-03.jpg">
-                                        <img src="img/tm-img-03-tn.jpg" alt="Image" class="img-fluid tm-img">
-                                    </a>
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/menage.jpg" alt="">
+                                        <div class="overlay">
+                                             <h2 style="font-weight:bold; font-size:0.9em; background-color:#4994DF;">Aide Ménagère</h2>
+                                            <p style="margin-top:120px;"> 
+                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                            </p> 
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
-                                    <a href="img/tm-img-04.jpg">
-                                        <img src="img/tm-img-04-tn.jpg" alt="Image" class="img-fluid tm-img">
-                                    </a>
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/accompagnement.png" alt="">
+                                        <div class="overlay">
+                                            <h2 style="font-weight:bold; font-size:0.9em; background-color:#2750BF;">Accompagnement</h2>
+                                            <p style="margin-top:120px;"> 
+                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                            </p> 
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
-                                    <a href="img/tm-img-05.jpg">
-                                        <img src="img/tm-img-05-tn.jpg" alt="Image" class="img-fluid tm-img">
-                                    </a>
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/tombe.jpg" alt="">
+                                        <div class="overlay">
+                                            <h2 style="font-weight:bold; font-size:0.9em; background-color:#52251C;">Entretien sépulture</h2>
+                                            <p style="margin-top:120px;"> 
+                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                            </p> 
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
-                                    <a href="img/tm-img-06.jpg">
-                                        <img src="img/tm-img-06-tn.jpg" alt="Image" class="img-fluid tm-img">
-                                    </a>
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/couchersoleil.jpg" alt="">
+                                        <div class="overlay">
+                                             <h2 style="font-weight:bold; font-size:0.9em; background-color:#B83A1B;">Aide coucher/lever</h2>
+                                            <p style="margin-top:120px;"> 
+                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                            </p> 
+                                        </div>
+                                    </div>
                                 </div>                                
                             </div>
 
@@ -234,7 +270,7 @@ http://www.templatemo.com/tm-491-flat
                     <a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
                 </div>
                 
-                <p class="tm-copyright-text">Copyright &copy; 2016 Your Company - Design: <a href="https://plus.google.com/+templatemo" target="_blank">Templatemo</a></p>
+                <p class="tm-copyright-text">Copyright &copy; 2016 DSP: <a href="#" target="_blank">DSP Info</a></p>
 
             </footer>
                     
