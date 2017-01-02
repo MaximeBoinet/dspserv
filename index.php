@@ -483,6 +483,8 @@ http://www.templatemo.com/tm-491-flat
                     break;
 
                     case "accomp":
+                        $('#displayBack').css('display', 'none');
+                        $('#displaySuite').css('display', '');
                         $('h4.modal-title').text("Notre Service d'Accompagnement");
                         $('.modal-header').css("background-color","#2750BF");
                         $('#servModal').modal({show:true});
@@ -491,6 +493,8 @@ http://www.templatemo.com/tm-491-flat
                     case "sepulture":
                         $('h4.modal-title').text("Notre Service d'Entretien de sépulture");
                         $('.modal-header').css("background-color","#52251C");
+                        $('#slog').text("Sortir en toute sécurité avec un accompagnateur dédié pour aller où vous le souhaitez, quand vous le voulez.").css("color", "#4994DF");
+
                         $('#servModal').modal({show:true});
                     break;
 
