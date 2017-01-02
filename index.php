@@ -70,7 +70,7 @@ http://www.templatemo.com/tm-491-flat
                             
                                 <div class="col-xs-12">
                                     <img src="img/logo.gif" style="width:17%;">
-                                    <h2 class="tm-site-name">Tout les services de DSP</h2>
+                                    <h2 class="tm-site-name">La <span class="lettre">D</span>éontologie du <span class="lettre">S</span>ervice à la <span class="lettre">P</span>ersonne</h2>
                                     <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-1-col">
                                         <p class="tm-text">Flat design used <a rel="nofollow" href="https://codyhouse.co/gem/hero-slider/" target="_blank">Hero Slider</a> for left and right page transitions. Responsiveness is based on <a rel="nofollow" href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 4 alpha 2. Images are taken from <a rel="nofollow" href="https://unsplash.com/" target="_blank">Unsplash</a>. This web template is provided by <a href="https://plus.google.com/+templatemo" target="_blank">templatemo</a> for free of charge.</p>
                                         <p class="tm-text">Mauris eros lacus, sollicitudin sit amet lacinia et, vehicula bibendum felis. Pellentesque in quam iaculis erat iaculis lacinia. Donec sagittis sapien odio, a sodales velit elementum nec.</p>
@@ -127,7 +127,7 @@ http://www.templatemo.com/tm-491-flat
                                         <div class="overlay">
                                             <h2 style="font-weight:bold; font-size:0.9em; background-color:green;">Jardinage</h2>
                                             <p style="margin-top:120px;"> 
-                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                                <a href="#" class="butmodal" value="jard" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
                                             </p> 
                                         </div>
                                     </div>
@@ -138,7 +138,7 @@ http://www.templatemo.com/tm-491-flat
                                         <div class="overlay">
                                             <h2 style="font-weight:bold; font-size:0.9em; background-color:#A44040;">Aide au repas</h2>
                                             <p style="margin-top:120px;"> 
-                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                                <a href="#" class="butmodal" value="repas" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
                                             </p>  
                                         </div>
                                     </div>
@@ -149,7 +149,7 @@ http://www.templatemo.com/tm-491-flat
                                         <div class="overlay">
                                              <h2 style="font-weight:bold; font-size:0.9em; background-color:#4994DF;">Aide Ménagère</h2>
                                             <p style="margin-top:120px;"> 
-                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                                <a href="#" class="butmodal" value="menage" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
                                             </p> 
                                         </div>
                                     </div>
@@ -160,7 +160,7 @@ http://www.templatemo.com/tm-491-flat
                                         <div class="overlay">
                                             <h2 style="font-weight:bold; font-size:0.9em; background-color:#2750BF;">Accompagnement</h2>
                                             <p style="margin-top:120px;"> 
-                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                                <a href="#" class="butmodal" value="accomp" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
                                             </p> 
                                         </div>
                                     </div>
@@ -171,7 +171,7 @@ http://www.templatemo.com/tm-491-flat
                                         <div class="overlay">
                                             <h2 style="font-weight:bold; font-size:0.9em; background-color:#52251C;">Entretien sépulture</h2>
                                             <p style="margin-top:120px;"> 
-                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                                <a href="#" class="butmodal" value="sepulture" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
                                             </p> 
                                         </div>
                                     </div>
@@ -180,19 +180,16 @@ http://www.templatemo.com/tm-491-flat
                                     <div class="hovereffect">
                                         <img class="img-responsive" src="img/couchersoleil.jpg" alt="">
                                         <div class="overlay">
-                                             <h2 style="font-weight:bold; font-size:0.9em; background-color:#B83A1B;">Aide coucher/lever</h2>
+                                             <h2 style="font-weight:bold; font-size:0.9em; background-color:#B83A1B;">Aide coucher / lever</h2>
                                             <p style="margin-top:120px;"> 
-                                                <a href="#" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
+                                                <a href="#"class="butmodal" value="coucherLever" style="font-weight:bold; font-size:1.3em;">En savoir plus</a>
                                             </p> 
                                         </div>
                                     </div>
-                                </div>                                
+                                </div>                               
                             </div>
-
-                        </div>
-                                                    
+                        </div>                                                    
                     </div>
-                    
                 </li>
 
                 <li>  <!-- class="cd-bg-video" -->
@@ -285,6 +282,63 @@ http://www.templatemo.com/tm-491-flat
             <div class="loader-section section-right"></div>
 
         </div>
+
+        <div id="servModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content" style="border-radius:10px;">
+                    <div class="modal-header" style="text-align:center;border-radius:10px;">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="color:white; font-weight:bold;"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="img/logo.gif" style="max-width:100%;">
+                            </div>
+                            <div class="col-md-10">
+                                <h2 id='slog'></h2>
+                            </div>
+                        </div>                                                                                                                       
+                        <div class="row">
+                            <div id="modContent" class="col-md-12"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col-md-12" style='text-align:left;'>
+                            <div class="col-md-4">
+                                <img src="img/sap.jpg">
+                            </div>
+                            <div class="col-md-8">
+                                <h3 id='footMarque' style='text-align:center; color:white; font-weight:bold;'>DSP Services</h3>
+                                <div class="col-md-6">
+                                    <p style='font-size:0.8em;'>
+                                        4 rue des Marnaudes <br>
+                                        93250 Villemomble
+                                        <h4><i>01.48.54.77.86</i></h4>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p style='font-size:0.8em;'>
+                                        42 rue de Courtry <br>
+                                        93470 Coubron
+                                        <h4><i>01.48.79.05.08</i></h4>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" style='margin-top:2%; text-align:left;'>
+                            <b style='color:green;'>accueil@dspservices.fr</b>
+                        </div>
+                        <div class="col-md-6" style='text-align:right; margin-top:2%;'>
+                            <button type='button' id='displaySuite' class='btn-large btn-success' style="font-weight:bold;">Afficher la suite >></button>
+                            <button type='button' id='displayBack' class='btn-large btn-success' style="font-weight:bold; display:none;"> << Revenir</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <!-- load JS files -->
         <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
@@ -325,11 +379,11 @@ http://www.templatemo.com/tm-491-flat
 
                 /* Gallery pop up
                 -----------------------------------------*/
-                $('.tm-img-gallery').magnificPopup({
+                /*$('.tm-img-gallery').magnificPopup({
                     delegate: 'a', // child items selector, by clicking on it popup will open
                     type: 'image',
                     gallery:{enabled:true}                
-                });
+                });*/
 
                 /* Collapse menu after click 
                 -----------------------------------------*/
@@ -351,6 +405,105 @@ http://www.templatemo.com/tm-491-flat
                 $('body').addClass('loaded');
                            
             });
+
+        $(document).ready(function(){
+            $(".butmodal").click(function(){
+                switch($(this).attr("value")){
+                    case "jard":
+                        $('#displayBack').css('display', 'none');
+                        $('#displaySuite').css('display', '');
+                        $('h4.modal-title').text("Le jardinage avec DSP");
+                        $('.modal-header').css("background-color","green");
+                        $('#slog').text("Profitez de votre jardin ... et laissez son entretien à DSP Services !").css("color", "#556627");
+                        $("#modContent").html("<span class='firstPage'><ul style='padding:5%;'><li>Taille des haies.</li><li>Tonte de pelouse.</li><li>Entretien de massifs et plates-bandes.</li><li>Rempotage, semis, hivernage et plantation.</li><li>Débrouissaillage, désherbage.</li><li>Déneigement.</li><li>Traitement et entretien du jardin.</li><li>Arrosage des plantes.</li><li>Scarification des pelouses.</li><li>Evacuation des déchets.</li><li>Etc ...</li></ul><h3>Les plus de notre prestation de petit jardinage</h3><ul style='padding:5%;'><li>Utilisation de notre propre matériel.</li><li>Un intervenant expérimenté pour un travail rapide et soigné.</li><li>Des prestations ponctuelles ou régulières en fonction de vos besoins, de vos envies et de votre budget.</li></ul></span><span class='secondPage' style='display:none;'><h3 style='text-align:center;'>Accès DSP</h3><div class='col-md-6'><img src='img/marnaudesMap.png'></div><div class='col-md-6'><img src='img/coubronMap.png'></div><div class='col-md-12' style='text-align:center; margin-top:2%;'><h3>Avantages fiscaux des petits traveaux de jardinage</h3></div><div class='col-md-6'><ul style='padding:5%;'><li>50% de réduction ou de crédit d'impôt sur les sommes dépensées.</li></ul></div><div class='col-md-6'><ul style='padding:5%;'><li>Contacter-nous pour tout renseignement sur les avantages fiscaux.</li></ul></div><div class='col-md-12'><h3>Nos points de confiance : </h3></div><div class='col-md-12'><ul style='padding:5%;'><li>Un prix clair et la remise d'un devis gratuit avant notre intervention.</li><li>La sécurité du mode prestataire : aucun frais de gestion, aucune formalité administrative, des intervenants salariés de notre structure.</li><li>Un interlocuteur unique pour l'ensemble des services proposés.</li></ul></div></span>");
+                        $("#modContent ul").css("list-style-image", 'url("img/touff.png")');
+                        $("#footMarque").css("background-color", "green");
+                        $("#displaySuite").click(function(){
+                            $('.firstPage').css('display', 'none');
+                            $('.secondPage').css('display', '');
+                            $('#displayBack').css('display', '');
+                            $('#displaySuite').css('display', 'none');
+                        })
+                        $("#displayBack").click(function(){
+                            $('.firstPage').css('display', '');
+                            $('.secondPage').css('display', 'none');
+                            $('#displayBack').css('display', 'none');
+                            $('#displaySuite').css('display', '');
+                        })
+                        $('#servModal').modal({show:true});
+
+                    break;
+
+                    case "repas":
+                        $('#displayBack').css('display', 'none');
+                        $('#displaySuite').css('display', '');
+                        $('h4.modal-title').text("Notre Service d'Aide au Repas");
+                        $('.modal-header').css("background-color","#A44040");
+                        $('#slog').text("Une cuisine équilibrée et savoureuse à votre domicile chaque jour.").css("color", "#A44040");
+                        $("#modContent").html("<span class='firstPage'><div class='col-md-12'><p style='margin-top:2%;'>Elaborés par des cuisines partenaires, les repas livrés permettent d’éviter les carences alimentaires, fréquentes chez les personnes âgées et s’adaptent aux régimes alimentaires de chacun.</p></div><div class='col-md-12'><h3 style='margin-top:2%;'>La possibilité de prise en charge comme : </h3><ul style='padding:5%;'><li>Allocation Personnalisée d'Autonomie (APA)</li><li>Prestation de Compensation du Handicap (PCH)</li><li>Etc ...</li></ul></div><div class='col-md-12'><p>Le passage régulier de votre auxiliaire permet également de s’assurer que les repas sont correctement consommés et d’assurer un suivi permanent de la personne livrée.</p></div></span><span class='secondPage' style='display:none;'><h3 style='text-align:center;'>Accès DSP</h3><div class='col-md-6'><img src='img/marnaudesMap.png'></div><div class='col-md-6'><img src='img/coubronMap.png'></div><div class='col-md-12' style='text-align:center; margin-top:2%;'><h3>Avantages fiscaux de l'aide au repas</h3></div><div class='col-md-6'><ul style='padding:5%;'><li>50% de réduction ou de crédit d'impôt sur le coût de la livraison des repas uniquement, hors coût des matières premières des repas.</li></ul></div><div class='col-md-6'><ul style='padding:5%;'><li>Une TVA réduite grâce à nos agréments.</li></ul></div><div class='col-md-12'><p style='font-size:0.8em;'>N'hésitez pas à nous contacter pour tout renseignement sur les avantages fiscaux.</p></div><div class='col-md-12'><h3 style='margin-top:2%;'>Nos points de confiance : </h3></div><div class='col-md-12'><ul style='padding:5%;'><li>Un prix clair et la remise d'un devis gratuit avant notre intervention.</li><li>La sécurité du mode prestataire : aucun frais de gestion, aucune formalité administrative, des intervenants salariés de notre structure.</li><li>Un interlocuteur unique pour l'ensemble des services proposés.</li></ul></div><div class='col-md-12'><p style='font-size:0.8em;'>Contactez directement nos agences pour connaître les aides auxquelles vous pouvez prétendre. Le service livraison de repas pour personnes âgées s’adresse également aux personnes actives qui n’ont pas le temps ou l’envie de cuisiner.</p></div></span>");
+                        $("#footMarque").css("background-color", "#A44040");
+                        $("#modContent ul").css("list-style-image", 'url("img/forkRepas.png")');
+                        $("#displaySuite").click(function(){
+                            $('.firstPage').css('display', 'none');
+                            $('.secondPage').css('display', '');
+                            $('#displayBack').css('display', '');
+                            $('#displaySuite').css('display', 'none');
+                        })
+                        $("#displayBack").click(function(){
+                            $('.firstPage').css('display', '');
+                            $('.secondPage').css('display', 'none');
+                            $('#displayBack').css('display', 'none');
+                            $('#displaySuite').css('display', '');
+                        })
+                        $('#servModal').modal({show:true});
+                    break;
+
+                    case "menage":
+                        $('#displayBack').css('display', 'none');
+                        $('#displaySuite').css('display', '');
+                        $('h4.modal-title').text("Notre Service d'Aide Ménagère");
+                        $('.modal-header').css("background-color","#4994DF");
+                        $('#slog').text("Un intérieur rangé, propre et soigné grâce à notre service d'aide ménagère.").css("color", "#4994DF");
+                        $("#modContent").html("<span class='firstPage'><div class='col-md-12'><p style='margin-top:2%;'>Notre service d'entretien ménager effectue tout types de traveaux ménagers : ménage, entretien du linge, nettoyage des vitres, rangement des armoires ...</p></div><div class='col-md-12'><h3 style='margin-top:2%;'>La possibilité de prise en charge comme : </h3><ul style='padding:5%;'><li>Allocation Personnalisée d'Autonomie (APA)</li><li>Prestation de Compensation du Handicap (PCH)</li><li>Allocation aux Adultes Handicapés (AAH)</li><li>Caisse de retraite</li><li>Etc ...</li></ul></div><div class='col-md-12'><p style='font-size:0.8em;'>Contactez directement notre agence de services à la personne pour connaître les offres auxquelles vous pouvez prétendre.</p></div><div class='col-md-12' style='margin-top:2%;'><h3>Les plus de notre service d'entretien ménager : </h3><ul style='padding:5%;'><li>Un intervenant de confiance expérimenté et fiable.</li><li>Un service d'entretien ménager sur mesure en fonction de vos besoins.</li><li>Un suivi individualisé de vos prestations</li><li>Une prestation de qualité.</li></ul></div></span><span class='secondPage' style='display:none;'><h3 style='text-align:center;'>Accès DSP</h3><div class='col-md-6'><img src='img/marnaudesMap.png'></div><div class='col-md-6'><img src='img/coubronMap.png'></div><div class='col-md-12' style='text-align:center; margin-top:2%;'><h3>Avantages fiscaux de l'aide ménagère</h3></div><div class='col-md-6'><ul style='padding:5%;'><li>50% de réduction ou de crédit d'impôt sur les sommes dépensées.</li></ul></div><div class='col-md-6'><ul style='padding:5%;'><li>Une TVA réduite grâce à nos agréments.</li></ul></div><div class='col-md-12'><p style='font-size:0.8em;'>N'hésitez pas à nous contacter pour tout renseignement sur les avantages fiscaux.</p></div><div class='col-md-12'><h3 style='margin-top:2%;'>Nos points de confiance : </h3></div><div class='col-md-12'><ul style='padding:5%;'><li>Un prix clair et la remise d'un devis gratuit avant notre intervention.</li><li>La sécurité du mode prestataire : aucun frais de gestion, aucune formalité administrative, des intervenants salariés de notre structure.</li><li>Un interlocuteur unique pour l'ensemble des services proposés.</li></ul></div></span>");
+                        $("#footMarque").css("background-color", "#4994DF");
+                        $("#modContent ul").css("list-style-image", 'url("img/aideMenagere.png")');
+                        $("#displaySuite").click(function(){
+                            $('.firstPage').css('display', 'none');
+                            $('.secondPage').css('display', '');
+                            $('#displayBack').css('display', '');
+                            $('#displaySuite').css('display', 'none');
+                        })
+                        $("#displayBack").click(function(){
+                            $('.firstPage').css('display', '');
+                            $('.secondPage').css('display', 'none');
+                            $('#displayBack').css('display', 'none');
+                            $('#displaySuite').css('display', '');
+                        })
+                        $('#servModal').modal({show:true});
+                    break;
+
+                    case "accomp":
+                        $('h4.modal-title').text("Notre Service d'Accompagnement");
+                        $('.modal-header').css("background-color","#2750BF");
+                        $('#servModal').modal({show:true});
+                    break;
+
+                    case "sepulture":
+                        $('h4.modal-title').text("Notre Service d'Entretien de sépulture");
+                        $('.modal-header').css("background-color","#52251C");
+                        $('#servModal').modal({show:true});
+                    break;
+
+                    case "coucherLever":
+                        $('h4.modal-title').text("Notre Service d'Aide au Coucher / Lever");
+                        $('.modal-header').css("background-color","#B83A1B");
+                        $('#servModal').modal({show:true});
+                    break;
+
+                    default: ;
+                }
+            })
+        })
 
         </script>           
 </body>

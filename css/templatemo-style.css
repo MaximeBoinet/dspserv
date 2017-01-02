@@ -353,6 +353,21 @@ border-top-color: #f9c922; -webkit-animation: spin 1.5s linear infinite; /* Chro
 
 /* CLASSES PERSO */
 
+.galleryServ {
+	max-width: 860px;
+    margin: 10px auto 0;
+    width: 100%;
+}
+
+.lettre{
+	color: #EF4F2A;
+	font-weight: bold;
+}
+
+.col-xs-12.col-sm-6.col-md-4.col-lg-4.col-xl-4{
+	padding: 5px;
+}
+
 .hovereffect {
   width: 100%;
   height: 100%;
