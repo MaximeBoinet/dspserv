@@ -72,8 +72,12 @@ http://www.templatemo.com/tm-491-flat
                                     <img src="img/logo.gif" style="width:17%;">
                                     <h2 class="tm-site-name">La <span class="lettre">D</span>éontologie du <span class="lettre">S</span>ervice à la <span class="lettre">P</span>ersonne</h2>
                                     <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-1-col">
-                                        <p class="tm-text">Flat design used <a rel="nofollow" href="https://codyhouse.co/gem/hero-slider/" target="_blank">Hero Slider</a> for left and right page transitions. Responsiveness is based on <a rel="nofollow" href="http://getbootstrap.com/" target="_blank">Bootstrap</a> 4 alpha 2. Images are taken from <a rel="nofollow" href="https://unsplash.com/" target="_blank">Unsplash</a>. This web template is provided by <a href="https://plus.google.com/+templatemo" target="_blank">templatemo</a> for free of charge.</p>
-                                        <p class="tm-text">Mauris eros lacus, sollicitudin sit amet lacinia et, vehicula bibendum felis. Pellentesque in quam iaculis erat iaculis lacinia. Donec sagittis sapien odio, a sodales velit elementum nec.</p>
+                                        <p class="tm-text">
+                                            Notre principal objectif est d'offrir de réels services aux personnes âgées, non médicalisées, dans un environnement humanisé mais hautement contrôlé et sécurisé.
+                                        </p>
+                                        <p class="tm-text">
+                                            Pour cela la problématique n'est pas seulement d'offrir des services mais d'en sécuriser leurs réalisations et d'humaniser les relations.
+                                        </p>
                                     </div>
                                 </div>
 
@@ -92,16 +96,16 @@ http://www.templatemo.com/tm-491-flat
                                     <div class="tm-2-col-container">
                             
                                         <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox">
-                                            <h2 class="tm-text-title">Lorem ipsum dolor</h2>
-                                            <p class="tm-text">Quisque sagittis quam tortor, sit amet posuere justo tempor non. Cras tempus, eros vel ultrices aliquam, velit tortor sodales risus, ac facilisis lectus tortor eget neque.</p>
-                                            <p class="tm-text">Nam auctor dui ante. Curabitur tristique nec ligula ac semper. Nunc eu leo sit amet elit condimentum consectetur.</p>
+                                            <h2 class="tm-text-title">A Propos de </h2>
+                                            <p class="tm-text">Plus de 11 ans après la création de DSP Services, nous avons su démontrer encore notre capacité à évoluer, parfois dans des contextes difficiles.</p>
+                                            <p class="tm-text">Chaque année écoulée nous permet de travailler des sujets de fond afin d'améliorer nos services au près des personnes fragiles.</p>
                                         </div>
 
                                         <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox">
-                                            <h2 class="tm-text-title">Phasellus rutrum sapien</h2>
+                                            <h2 class="tm-text-title">DSP Services</h2>
                                             <p class="tm-text">
-                                            Donec sagittis sapien odio, a sodales velit elementum nec. Donec feugiat purus a bibendum hendrerit.</p>
-                                            <p class="tm-text">Fusce ut elit interdum sem consectetur maximus. Mauris eros lacus, sollicitudin sit amet lacinia et, vehicula bibendum felis. Pellentesque in quam iaculis erat iaculis lacinia.</p>
+                                            Nous entendons poursuivre des actions autour de trois grand axes majeures : </p>
+                                            <p class="tm-text">Etre une entreprise engagée, auprès des personnes agées, personnes à mobilité réduite et être engagé su l'accompagnement. Pour devenir un acteur responsable et proposer un servicve adapté à la diversitée de vos besoins.</p>
                                         </div>
 
                                     </div>
@@ -212,10 +216,12 @@ http://www.templatemo.com/tm-491-flat
                                 
                                 <div class="row">
 
-                                    <div class="col-xs-12">
+                                    <div class="col-xs-12 col-xs-12 tm-bg-white-translucent text-xs-center tm-textbox tm-textbox-2-col" style="margin-top:3%; margin-bottom:3%;">
                                         
-                                        <h2 class="tm-section-title">Contact Us</h2>
-                                        <p class="tm-text tm-font-w-400 m-b-3">Pellentesque in quam iaculis erat iaculis lacinia. Donec sagittis sapien odio, a sodales velit elementum nec. Donec feugiat purus a bibendum hendreit.</p>      
+                                        <h2 class="tm-section-title" style="color:black;">Nous contacter</h2>
+                                        <p class="tm-text tm-font-w-400 m-b-3">Pour tout renseignement ou informations complémentaires, veuillez nous contacter en remplissant ce formulaire, ou en utilisant les informations ci-dessous :</p>
+                                        <p>Agence Villemomble : <br>4 rue des Marnaudes 93250 Villemomble | 01.48.54.77.86</p>
+                                        <p style='margin-bottom:1%;'>Agence Coubron : <br>42 rue de Courtry | 01.48.79.05.08</p>   
 
                                     </div>
 
@@ -227,24 +233,24 @@ http://www.templatemo.com/tm-491-flat
                                     
                                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                             <div class="form-group">
-                                                <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Your Name"  required/>
+                                                <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Votre nom"  required/>
                                             </div>
                                             <div class="form-group">
-                                                <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Your Email"  required/>
+                                                <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Votre Email"  required/>
                                             </div>
                                             <div class="form-group">
-                                                <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
+                                                <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Sujet"  required/>
                                             </div>    
                                         </div>
 
                                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                             <div class="form-group">
-                                                <textarea id="contact_message" name="contact_message" class="form-control" rows="5" placeholder="Your message" required></textarea>
+                                                <textarea id="contact_message" name="contact_message" class="form-control" rows="5" placeholder="Votre message" required></textarea>
                                             </div>    
                                         </div>
 
                                         <div class="col-xs-12">
-                                            <button type="submit" class="pull-xs-right tm-submit-btn">Submit</button>
+                                            <button type="submit" class="pull-xs-right tm-submit-btn">Envoyer</button>
                                         </div>
                                     </form>  
                                 </div>
@@ -534,20 +540,73 @@ if (!empty($_POST)) {
                         $('#displaySuite').css('display', '');
                         $('h4.modal-title').text("Notre Service d'Accompagnement");
                         $('.modal-header').css("background-color","#2750BF");
+                        $('#slog').text("Sortir en toute sécurité avec un accompagnateur dédié pour allez où vous le souhaitez quand vous le voulez.").css("color", "#2750BF");
+                         $("#modContent").html("<span class='firstPage'><div class='col-md-12'><h3 style='margin-top:2%;'>Le service d'accompagnement véhiculé et/ou au bras permet de se rendre : </h3><ul style='padding:5%;'><li>Rendez-vous médicaux (médecin, dentiste, pédicure ..).</li><li>Démarches administratives (banque, poste, bureau de vote, mairie ...).</li><li>Chez le coiffeur, l'esthéticienne ..</li><li>Dans vos magasins préférés.</li></ul></div><div class='col-md-12' style='margin-top:2%;'><h3>Mais aussi,</h3><ul style='padding:5%;'><li>Faire une promenade, rendre visite à des amis ou des proches.</li><li>Etre conduit à une résidence secondaire ou sur le lieu de villégiature.</li><li>Se rendre à des évènement familiaux (mariage, baptême, Toussaint ...).</li><li>Prendre le train ou l'avion (jusqu'à votre place ou jusqu'aux contrôles de sécurité).</li></ul></div></span><span class='secondPage' style='display:none;'><h3 style='text-align:center;'>Accès DSP</h3><div class='col-md-6'><img src='img/marnaudesMap.png'></div><div class='col-md-6'><img src='img/coubronMap.png'></div><div class='col-md-12' style='text-align:center; margin-top:2%;'><h3>Avantages fiscaux : </h3></div><div class='col-md-6'><ul style='padding:5%;'><li>50% de réduction ou de crédit d'impôt sur les sommes dépensées.</li></ul></div><div class='col-md-6'><ul style='padding:5%;'><li>Une TVA réduite grâce à nos agréments.</li></ul></div><div class='col-md-12'><p style='font-size:0.8em;'>N'hésitez pas à nous contacter pour tout renseignement sur les avantages fiscaux.</p></div><div class='col-md-12'><h3 style='margin-top:2%;'>Nos points de confiance : </h3></div><div class='col-md-12'><ul style='padding:5%;'><li>Une évaluation de vos besoins pour une prestation adaptée et répondant à vos attentes.</li><li>La sécurité du mode prestataire : aucun frais de gestion, aucune formalité administrative, des intervenants salariés de notre structure.</li><li>Un interlocuteur unique pour l'ensemble des services proposés.</li><li>Des pratiques professionnelles dans le respect de nos principes déontologiques.</li></ul></div></span>");
+                        $("#footMarque").css("background-color", "#2750BF");
+                        $("#modContent ul").css("list-style-image", 'url("img/accomp.png")');
+                        $("#displaySuite").click(function(){
+                            $('.firstPage').css('display', 'none');
+                            $('.secondPage').css('display', '');
+                            $('#displayBack').css('display', '');
+                            $('#displaySuite').css('display', 'none');
+                        })
+                        $("#displayBack").click(function(){
+                            $('.firstPage').css('display', '');
+                            $('.secondPage').css('display', 'none');
+                            $('#displayBack').css('display', 'none');
+                            $('#displaySuite').css('display', '');
+                        })
+
                         $('#servModal').modal({show:true});
                     break;
 
                     case "sepulture":
-                        $('h4.modal-title').text("Notre Service d'Entretien de sépulture");
+                        $('#displayBack').css('display', 'none');
+                        $('#displaySuite').css('display', '');
+                        $('h4.modal-title').text("Notre Service d'Entretien et de Fleurissement de Sépulture.");
                         $('.modal-header').css("background-color","#52251C");
-                        $('#slog').text("Sortir en toute sécurité avec un accompagnateur dédié pour aller où vous le souhaitez, quand vous le voulez.").css("color", "#4994DF");
+                        $('#slog').text("Consacrez votre temps au recueillement, confiez-nous l'entretien.").css("color", "#52251C");
+                        $("#modContent").html("<span class='firstPage'><div class='col-md-12'><h3 style='margin-top:2%;'>Le service d'entretien et de fleurissement de sépulture propose : </h3><ul style='padding:5%;'><li>Intervention toute l'année et sur tout les cimetières d'île de France.</li><li>Devis gratuit et personnalisé sur demande.</li><li>Intervention par un professionnel.</li><li>L'entretien de la sépulture (tombe ou columbarium), y compris le nettoyage de l'ensemble des plaques et accessoires funéraires.</li><li>le fleurissement.</li><li>Le désherbage du monument.</li><li>Un dossier de prestation comprenant des photos avant et après chaque intervention.</li><li>Un état complet de la sépulture avec des préconisations complémentaires.</li><li>Un suivi qualité personnalisé.</li></ul></div></span><span class='secondPage' style='display:none;'><h3 style='text-align:center;'>Accès DSP</h3><div class='col-md-6'><img src='img/marnaudesMap.png'></div><div class='col-md-6'><img src='img/coubronMap.png'></div><div class='col-md-12' style='text-align:center; margin-top:2%;'><h3>Avantages fiscaux : </h3></div><div class='col-md-6'><ul style='padding:5%;'><li>50% de réduction ou de crédit d'impôt sur les sommes dépensées.</li></ul></div><div class='col-md-6'><ul style='padding:5%;'><li>Une TVA réduite grâce à nos agréments.</li></ul></div><div class='col-md-12'><p style='font-size:0.8em;'>N'hésitez pas à nous contacter pour tout renseignement sur les avantages fiscaux.</p></div><div class='col-md-12'><h3 style='margin-top:2%;'>Nos points de confiance : </h3></div><div class='col-md-12'><ul style='padding:5%;'><li>Une évaluation de vos besoins pour une prestation adaptée et répondant à vos attentes.</li><li>La sécurité du mode prestataire : aucun frais de gestion, aucune formalité administrative, des intervenants salariés de notre structure.</li><li>Un interlocuteur unique pour l'ensemble des services proposés.</li><li>Des pratiques professionnelles dans le respect de nos principes déontologiques.</li><li>Un prix clair, la remise d'un devis gratuit avant toute intervention</li></ul></div></span>");
+                        $("#footMarque").css("background-color", "#52251C");
+                        $("#modContent ul").css("list-style-image", 'url("img/flowers.png")');
+                        $("#displaySuite").click(function(){
+                            $('.firstPage').css('display', 'none');
+                            $('.secondPage').css('display', '');
+                            $('#displayBack').css('display', '');
+                            $('#displaySuite').css('display', 'none');
+                        })
+                        $("#displayBack").click(function(){
+                            $('.firstPage').css('display', '');
+                            $('.secondPage').css('display', 'none');
+                            $('#displayBack').css('display', 'none');
+                            $('#displaySuite').css('display', '');
+                        })
 
                         $('#servModal').modal({show:true});
                     break;
 
                     case "coucherLever":
+                        $('#displayBack').css('display', 'none');
+                        $('#displaySuite').css('display', '');
                         $('h4.modal-title').text("Notre Service d'Aide au Coucher / Lever");
                         $('.modal-header').css("background-color","#B83A1B");
+                        $('#slog').text("L'âge, le handicap ou la maladie ont rendu ces gestes impossibles seul, ou difficiles ...").css("color", "#52251C");
+                        $("#modContent").html("<span class='firstPage'><div class='col-md-12'><p>Nous vous proposons une aide, une présence pour ces temps importants de votre quotidien, pour entamer la journée avec <b>tranquillité</b> et aborder la nuit avec <b>sérénité</b>.</p><p>Les intervenants proposés par DSP Services sont des intervenants qualifiés, expérimentés et formés aux différentes techniques de transfert et de manipulation d’une personne. Leur expérience et leur formation leur permettent de répondre au mieux à ce type particulier de besoin.</p><h3 style='text-align:center;'>La possibilité de prise en charge comme : </h3><ul style='padding:5%;'><li>Allocation Personnalisée d'Autonomie (APA).</li><li>Prestation de Compensation du Handicap (PCH).</li><li>Etc...</li></ul></div><div class='col-md-12'><p>Chez DSP Services, l’aide au lever et au coucher d’une personne âgée est toujours assurée par une auxiliaire de vie qualifiée justifiant d’une formation d’auxiliaire de vie et d’au moins 2 ans d’expérience professionnelle.</p></div></span><span class='secondPage' style='display:none;'><h3 style='text-align:center;'>Accès DSP</h3><div class='col-md-6'><img src='img/marnaudesMap.png'></div><div class='col-md-6'><img src='img/coubronMap.png'></div><div class='col-md-12' style='text-align:center; margin-top:2%;'><h3>Avantages fiscaux : </h3></div><div class='col-md-6'><ul style='padding:5%;'><li>50% de réduction ou de crédit d'impôt sur les sommes dépensées.</li></ul></div><div class='col-md-6'><ul style='padding:5%;'><li>Une TVA réduite grâce à nos agréments.</li></ul></div><div class='col-md-12'><p style='font-size:0.8em;'>N'hésitez pas à nous contacter pour tout renseignement sur les avantages fiscaux.</p></div><div class='col-md-12'><h3 style='margin-top:2%;'>Nos points de confiance : </h3></div><div class='col-md-12'><ul style='padding:5%;'><li>Une évaluation de vos besoins pour une prestation adaptée et répondant à vos attentes.</li><li>La sécurité du mode prestataire : aucun frais de gestion, aucune formalité administrative, des intervenants salariés de notre structure.</li><li>Un interlocuteur unique pour l'ensemble des services proposés.</li><li>Des pratiques professionnelles dans le respect de nos principes déontologiques.</li><li>Un prix clair, la remise d'un devis gratuit avant toute intervention</li></ul></div></span>");
+                        $("#footMarque").css("background-color", "#B83A1B");
+                        $("#modContent ul").css("list-style-image", 'url("img/moon.png")');
+                        $("#displaySuite").click(function(){
+                            $('.firstPage').css('display', 'none');
+                            $('.secondPage').css('display', '');
+                            $('#displayBack').css('display', '');
+                            $('#displaySuite').css('display', 'none');
+                        })
+                        $("#displayBack").click(function(){
+                            $('.firstPage').css('display', '');
+                            $('.secondPage').css('display', 'none');
+                            $('#displayBack').css('display', 'none');
+                            $('#displaySuite').css('display', '');
+                        })
+
                         $('#servModal').modal({show:true});
                     break;
 
