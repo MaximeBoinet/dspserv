@@ -223,7 +223,7 @@ http://www.templatemo.com/tm-491-flat
 
                                 <!-- contact form -->
                                 <div class="row">
-                                    <form action="index.html" method="post" class="tm-contact-form">
+                                    <form action="index.php" method="post" class="tm-contact-form">
                                     
                                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                             <div class="form-group">
@@ -248,7 +248,54 @@ http://www.templatemo.com/tm-491-flat
                                         </div>
                                     </form>  
                                 </div>
-
+<?php
+if (!empty($_POST)) {
+	if (!empty($_POST['contact_name']) && !empty($_POST['contact_email']) && !empty($_POST['contact_subject']) && !empty($_POST['contact_message'])) {
+		
+		$name = $_POST["contact_name"];
+		$cible = "maximeboinet@live.com";
+		$objet = $_POST['contact_subject'];
+		$mail = $_POST["contact_email"];
+		$message = $_POST["contact_message"];
+		
+		if (!ctype_alpha(contact_name)) {
+			$fail = "Le nom ne doit contenir que des lettres";
+		}
+		if (!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+			$fail = "L'adresse mail: $mail n'est pas valide.";
+		}
+		
+		if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) {
+			$passage_ligne = "\r\n";
+		} else {
+			$passage_ligne = "\n";
+		}
+		
+		$headers  = 'MIME-Version: 1.0' . $passage_ligne;
+		$headers .= 'From:'.$name.' <'.$mail.'>' . $passage_ligne.
+				'Reply-To:'.$mail. $passage_ligne .
+				'X-Mailer:PHP/'.phpversion();
+		
+		$message = str_replace("&#039;","'",$message);
+		$message = str_replace("&#8217;","'",$message);
+		$message = str_replace("&quot;",'"',$message);
+		$message = str_replace('<br>','',$message);
+		$message = str_replace('<br />','',$message);
+		$message = str_replace("&lt;","<",$message);
+		$message = str_replace("&gt;",">",$message);
+		$message = str_replace("&amp;","&",$message);
+		
+		//envoie
+		if (mail($cible, $objet, $message, $headers)) {
+			$succes = "Votre demande de contact à bien été enregistré et sera traitée dans les plus brefs délais";
+		} else {
+			$fail = "L'envoie à échoué ... Veuillez réessayer svp";
+		}
+	} else {
+		$fail = "Veuillez remplir tous les champs";
+	}
+}
+?>
                             </div>    
 
                         </div>
